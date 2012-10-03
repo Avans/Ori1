@@ -2,7 +2,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title><?php echo echo $curPage->getContent('title'); ?></title>
+    <title><?php echo $curPage->getContent('title'); ?></title>
     <meta name="description" content="">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
