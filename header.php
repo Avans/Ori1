@@ -1,0 +1,1 @@
+<h2>Dit is de header, een statisch opgehaalde pagina</h2>
