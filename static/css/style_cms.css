@@ -1,0 +1,74 @@
+body {
+	font-family: arial, sans serif;
+	font-size: 10px;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+h2 {
+	margin: 5px 0px 15px 5px;
+}
+
+.cms_container {
+	width: 400px;
+}
+
+.cms_entry {
+	float: left;
+	display: block;
+	width: 390px;
+	border: 1px solid #111;
+	margin: 5px;
+	padding: 5px;
+}
+
+.input1 {
+	height: 15px;
+	font-size: 10px;
+	margin: 5px 0px 5px 0px;
+
+}
+
+.centerPage {
+	width: 1000px;
+	margin: auto;
+	text-align: center;
+}
+
+
+.page_container {
+	width: 800px;
+	height: 300px;
+	border: 1px dotted #111;
+	margin: auto;
+	padding: 10px;
+}
+
+.page_heading h3{
+	margin: 10px 0px 15px 0px;
+	//margin-bottom: 20px;
+
+}
+
+.page_content {
+	width: 575px;
+	height: 200px;
+	float: left;
+	border: 1px dotted #111;
+	margin: 15px 0px 15px 0px;
+	padding: 5px;
+
+}
+
+.page_sidebar {
+	width: 190px;
+	height: 200px;
+	float: left;
+	border: 1px dotted #111;
+	margin: 15px 0px 15px 10px;
+	padding: 5px;
+
+}
