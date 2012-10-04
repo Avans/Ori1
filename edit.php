@@ -26,7 +26,7 @@
 		
 	</head>
 	<body>
-		<?= $curPage->getStatic('header')?>
+		<?= $curPage->getStatic('cms_header')?>
 		<div class="cms_container">
 			<div class="cms_entry" style="height: 17px;">
 				<strong style="text-transform: uppercase;">[EDITING] <?= $curPage->getContent('title')?></strong>
@@ -54,7 +54,7 @@
 				
 				<div class="cms_entry">
 					<input type="hidden" name="id" value="<?=$id?>">
-					<input type="submit" value="submit" name="submit" style="float: left;"><input type="reset" value="reset" name="reset" style="float: left;margin-left:5px;"><input type="button" value="back" name="back" onClick="window.location='http://verzuipen.nl/av/site/cms.php'" style="float: left;margin-left:5px;">					
+					<input type="submit" value="submit" name="submit" style="float: left;"><input type="reset" value="reset" name="reset" style="float: left;margin-left:5px;"><input type="button" value="back" name="back" onClick="window.location='cms.php'" style="float: left;margin-left:5px;">					
 				</div>
 			</form>
 			

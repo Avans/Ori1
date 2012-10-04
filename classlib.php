@@ -8,9 +8,9 @@ class SQLConnect {
 	var $mysqli;
 	
 	function __construct(){
-		$this->usr = "root";
-		$this->pwd = "umlaut";
-		$this->db = "gss";
+		$this->usr = "";
+		$this->pwd = "";
+		$this->db = "";
 		$this->host = "localhost";
 		$this->mysqli = new mysqli($this->host, $this->usr, $this->pwd, $this->db);
 	}
@@ -65,8 +65,7 @@ class PageHandle {
 				//ongeldige GET data
 				return 0;
 			}
-		}
-		
+		}		
 	}
 }
 
@@ -95,7 +94,6 @@ class Page {
 		$_name = basename($_name);
 		include 'static/' . $_name . ".php";
 	}
-
 }
 
 class CMS {
@@ -108,11 +106,14 @@ class CMS {
 	function getArticles(){
 		$result = $this->dbConnect->queryDB("SELECT * FROM cms_artikelen");
 		while ($row = $result->fetch_assoc()) {
+			$htmlprint = substr($row['html'],0,200);
+			$htmlprint = htmlspecialchars($htmlprint);
+		
 			echo '
 			<div class="cms_entry">
 				<a href="index.php?id='.$row['id'].'"><b>'.$row['title'].'</b></a> | <a href="edit.php?mode=2&id='.$row['id'].'">edit</a> | <a href="edit.php?mode=3&id='.$row['id'].'">delete</a><br><br>
 				<p>
-					'.$row['html'].'
+					'.$htmlprint.'
 				</p>
 			</div>			
 			';
