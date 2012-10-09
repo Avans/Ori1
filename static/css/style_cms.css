@@ -1,0 +1,180 @@
+body {
+	font-family: arial, sans serif;
+	font-size: 10px;
+	width: 100%;
+	background-color: #f5f9f8;
+}
+
+a {
+	text-decoration: none;
+	color: #3b4657;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #3b4657;
+}
+
+h2 {
+	margin: 5px 0px 15px 5px;
+}
+
+.cms_container {
+	width: 400px;
+}
+
+.cms_entry {
+	float: left;
+	display: block;
+	width: 390px;
+	border: 1px solid #111;
+	margin: 5px;
+	padding: 5px;
+}
+
+.input1 {
+	height: 15px;
+	font-size: 10px;
+	margin: 5px 0px 5px 0px;
+
+}
+
+.centerPage {
+	width: 1001px;
+	margin: auto;
+	
+}
+
+#menu {
+	width: 1000px;
+	height: 15px;
+	padding: 10px;
+	margin: auto;
+	border: 1px dotted #111;
+	margin-bottom: 20px;
+	text-align: center;
+
+}
+
+#page_container {
+	width: 1000px;
+	height: 300px;
+	border: 1px dotted #111;
+	margin: auto;
+	padding: 10px;	
+}
+
+.page_heading h3{
+	font-size: 18px;
+	margin: 5px 0px 5px 0px;
+}
+
+.page_content {
+	width: 775px;
+	/*height: 200px;*/
+	float: left;
+	border: 1px dotted #111;
+	margin: 15px 0px 15px 0px;
+	padding: 5px;
+
+}
+
+.page_content h4 {
+	font-size: 12px;
+	font-weight: bold;
+	margin: 5px 0px 5px 0px;
+}
+
+.page_content img.left {
+	margin: 5px;
+	float: left;
+	border: 0px solid #222;
+}
+
+.page_content img.right {
+	margin:5px;
+	float: right;
+	border: 0px solid #222;
+}
+
+
+
+.page_sidebar {
+	width: 190px;
+	height: 200px;
+	float: left;
+	border: 1px dotted #111;
+	margin: 15px 0px 15px 10px;
+	padding: 5px;
+
+}
+
+#footer {
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+}
+
+
+/*MENU*/
+#nav {
+margin:0;
+padding:0;
+list-style:none;
+}  
+
+/* make the LI display inline */
+/* it's position relative so that position absolute */
+/* can be used in submenu */
+#nav li {
+float:left;
+display:block;
+/*width:100px;*/
+position:relative;
+margin:0 1px;
+}
+
+/* this is the parent menu */
+#nav li a {
+display:block;
+padding:8px 8px 0 8px;
+height:28px;
+text-decoration:none;
+text-align:center;
+color:#111;
+font-size: 14px;
+font-family: gill sans MT, gill sans, arial;
+}
+
+#nav li a:hover {
+color:#fff;
+background: #000;
+}
+
+/* submenu, it's hidden by default */
+#nav ul {
+position:absolute;
+left:0;
+display:none;
+margin:0 0 0 -1px;
+padding:0;
+list-style:none;
+}
+
+#nav ul li {
+width:100px;
+float:left;
+}
+
+/* display block will make the link fill the whole area of LI */
+#nav ul a {
+display:block; 
+height:15px;
+padding: 8px 5px;
+background: #545454;
+color:#fff;
+}
+
+#nav ul a:hover {
+text-decoration:none; 
+}
