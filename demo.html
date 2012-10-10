@@ -1,180 +1,357 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title><?php echo $curPage->getContent('title'); ?></title>
+	<meta name="description" content="">
+	<link rel="stylesheet" href="static/css/normalize.css">
+	<link rel="stylesheet" href="static/css/main.css">
+	<link href='http://fonts.googleapis.com/css?family=Carrois+Gothic' rel='stylesheet' type='text/css'>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#">Over Ons</a>
+				</li>
+				<li>
+					<a href="#">Opdracht</a>
+				</li>
+				<li>
+					<a href="#">Persona</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<div id="main">
+		<h1>Welke persona past bij mij?</h1>
+		<div class="right" style="width: 300px; padding: 25px">
+			<h3>Hans</h3>
+			<div id="hans_bar"></div>
+			<h3>Peter</h3>
+			<div id="peter_bar"></div>
+			<h3>Lucy</h3>
+			<div id="lucy_bar"></div>
+		</div>
+		<h2>Vragen</h2>
+		<p>
+			Ik vind het leuk om nieuwe programmaatjes te schrijven.
+			<br />
+			<button class="peter">
+				Uiteraard!
+			</button>
+			<button>
+				Nope
+			</button>
+		</p>
+		<p>
+			Het analyseren van bedrijfsprocessen om te zien welk product bij een bedrijf
+			past, vind ik interessant.
+			<br />
+			<button class="peter">
+				Jup
+			</button>
+			<button>
+				Neh
+			</button>
+		</p>
+		<p>
+			Het lijkt me leuk om in een team te werken aan een grote en complexe
+			applicatie.
+			<br />
+			<button class="lucy">
+				Ja
+			</button>
+			<button>
+				Nee
+			</button>
+		</p>
+		<p>
+			Ik vind het leuk om websites te maken die bestaan uit PHP, HTML en
+			CSS
+			<br />
+			<button class="peter">
+				Jazeker
+			</button>
+			<button>
+				Echt nie
+			</button>
+		</p>
+		<p>
+			Ik wil tijdens mijn werk gespecialiseerd werk uitvoeren en kennis
+			hebben van veel programmeertalen.
+			<br />
+			<button class="peter lucy">
+				Uiteraard!
+			</button>
+			<button>
+				Nope
+			</button>
+		</p>
+		<p>
+			Het lijkt me leuk de schakel tussen de IT en de zakenwereld te zijn.
+			<br />
+			<button class="peter">
+				Zeker
+			</button>
+			<button>
+				Lame
+			</button>
+		</p>
+		<p>
+			Ik wil mijn sociale vaardigheden kunnen combineren met programmeer-werk.
+			<br />
+			<button class="lucy">
+				Zeker
+			</button>
+			<button>
+				Lame
+			</button>
+		</p>
+		<p>
+			Ik zie mijn toekomstige werkplek alsvolgt:
+			<br />
+			<button class="peter">
+				A
+			</button>
+			<button class="lucy">
+				B
+			</button>
+			<button class="hans">
+				C
+			</button>
+			<ol type="A">
+				<li>
+					Een klein bedrijfje van ongeveer 8 personen
+				</li>
+				<li>
+					Een team van ongeveer 25 man
+				</li>
+				<li>
+					Een groot bedrijf van meer dan 100 man
+				</li>
+			</ol>
+		</p>
+		<p>
+			Van de volgende vakken lijkt me het leukst:
+			<br />
+			<button class="lucy">
+				A
+			</button>
+			<button class="hans">
+				B
+			</button>
+			<button class="peter">
+				C
+			</button>
+			<ol type="A">
+				<li>
+					Algoritmiek en datastructuren
+				</li>
+				<li>
+					Recht en maatschappij
+				</li>
+				<li>
+					Netwerken en internet
+				</li>
+			</ol>
+		</p>
+		<p>
+			Ik heb liever een brede kennis van de ICT dan dat ik me specialiseer op iets specifieks.
+			<br />
+			<button class="peter">
+				Jups
+			</button>
+			<button class="lucy">
+				Neh
+			</button>
+			<button class="hans">
+				Geen mening
+			</button>
+		</p>
+		<p>
+			Vakken waarbij sociale vaardigheden opgedaan worden trekken mij absoluut niet
+			<br />
+			<button >
+				Eens
+			</button>
+			<button class="hans lucy">
+				Oneens
+			</button>
+		</p>
+		<p>
+			Ik wil graag later veel programmeer- en ontwerp-werk doen
+			<br />
+			<button class="peter">
+				Ja
+			</button>
+			<button>
+				Nee
+			</button>
+		</p>
+		<p>
+			Nederlands is een leuk vak!
+			<br />
+			<button>
+				Nah!
+			</button>
+			<button>
+				Bah!
+			</button>
+			<button>
+				Gatsie
+			</button>
+			<button>
+				Ieuwww!!
+			</button>
+		</p>
+		<p>
+			De hele ICT wereld trekt mij niet.
+			<br />
+			<button class="faal">
+				Ja het is lame man...
+			</button>
+			<button>
+				Nee, het is AWESOME
+			</button>
+		</p>
+		<p>
+			Het lijkt me fijn om veel verantwoordelijkheid te hebben over de technische kant van een project
+			<br />
+			<button class="lucy peter">
+				Ja
+			</button>
+			<button>
+				Nee
+			</button>
+		</p>
+		<p>
+			Het lijkt me fijn om veel verantwoordelijkheid te hebben over de technische kant van een project
+			<br />
+			<button class="peter lucy">
+				Ja
+			</button>
+			<button>
+				Nee
+			</button>
+		</p>
+		<p>
+			Ik vind documentatie een noodzakelijk kwaad, ik schrijf liever broncodes.
+			<br />
+			<button class="peter">
+				Ja
+			</button>
+			<button>
+				Nee
+			</button>
+		</p>
+		<p>
+			Ik vind het geweldig om in het middelpunt van de belangstelling te staan
+			<br />
+			<button class="hans">
+				That's me!
+			</button>
+			<button>
+				NOOOOOOOS!
+			</button>
+		</p>
+		<p>
+			Ik beschik over een vlotte babbel, waarmee ik het vast goed zou doen als huis-aan-huis-verkoper.
+			<br />
+			<button class="hans">
+				Ja
+			</button>
+			<button>
+				W-w-wat, w-w-wat w-attus?
+			</button>
+		</p>
+		<p>
+			Ik hou netjes m'n documentatie bij voor m'n collega's, en dat doe ik met plezier.
+			<br />
+			<button class="lucy">
+				Ja
+			</button>
+			<button>
+				Nee
+			</button>
+		</p>
+	</div>
+	<aside>
+		<a href="#"><img src="static/img/peter.jpg" alt="Peter" title="Peter" width="200" height="150" /></a>
+		<a href="#"><img src="static/img/lucy.jpg" alt="Lucy" title="Lucy" width="200" height="150"/></a>
+		<a href="#"><img src="static/img/hans.jpg" alt="Hans" title="Hans" width="200" height="150"/></a>
+		<a href="#"><img src="static/img/vragenlijst.jpg" alt="Maak de vragen lijst!" title="Maak de vragen lijst!" width="200" height="150"/></a>
+	</aside>
+</body>
+<script>
+	var peter = 0;
+	var hans = 0;
+	var lucy = 0;
 
-        <img src="#" width="150" height="300" class="left"/>
-        <p>
-            Whut Whut dkjfhagkjdhfgd
-            sfg
-            dfg
-            sdf
-            gs
-            dfg
-            sd
-            fg
-            sdfg
-            s
-            dfgsdfgsdfg
-            sdfgsd
-            fgsdfg
-            sd
-            fgsd
-            fgs
-            dfg
-            adfg
-            adfgadshivghasjdgkhjdfhjgsdjkahfkjashdjfgsadgfhjasdfas
-            dsafsdfasdjfasdf
-            asdfghasdjfgashjdfgjhasdfjasjdhfgas a djahgfjhasdhjg ad
-        </p>
+	function updatePersona(realname) {
 
-        <h2>Sub Blaat</h2>
-        <p>
-            Inhoud Inhoud
-        </p>
+		//Get the variable by the name realname
+		window[realname]++;
+		var element_id = "#" + realname + "_bar";
 
-        <h3>SupSub Schaap</h3>
-        <p>
-            Woop Woop
-        </p>
-        
-        <h1>Blaat</h1>
-        <img src="#" width="150" height="300" class="left"/>
-        <p>
-            Whut Whut dkjfhagkjdhfgd
-            sfg
-            dfg
-            sdf
-            gs
-            dfg
-            sd
-            fg
-            sdfg
-            s
-            dfgsdfgsdfg
-            sdfgsd
-            fgsdfg
-            sd
-            fgsd
-            fgs
-            dfg
-            adfg
-            adfgadshivghasjdgkhjdfhjgsdjkahfkjashdjfgsadgfhjasdfas
-            dsafsdfasdjfasdf
-            asdfghasdjfgashjdfgjhasdfjasjdhfgas a djahgfjhasdhjg ad
-        </p>
+		//Update Progressbar, nine points per person
+		$(element_id).progressbar("value", window[realname] * 100 / 9);
+	}
 
-        <h2>Sub Blaat</h2>
-        <p>
-            Inhoud Inhoud
-        </p>
 
-        <h3>SupSub Schaap</h3>
-        <p>
-            Woop Woop
-        </p>
-        
-        <h1>Blaat</h1>
-        <img src="#" width="150" height="300" class="left"/>
-        <p>
-            Whut Whut dkjfhagkjdhfgd
-            sfg
-            dfg
-            sdf
-            gs
-            dfg
-            sd
-            fg
-            sdfg
-            s
-            dfgsdfgsdfg
-            sdfgsd
-            fgsdfg
-            sd
-            fgsd
-            fgs
-            dfg
-            adfg
-            adfgadshivghasjdgkhjdfhjgsdjkahfkjashdjfgsadgfhjasdfas
-            dsafsdfasdjfasdf
-            asdfghasdjfgashjdfgjhasdfjasjdhfgas a djahgfjhasdhjg ad
-        </p>
+	$("button").click(function() {
 
-        <h2>Sub Blaat</h2>
-        <p>
-            Inhoud Inhoud
-        </p>
+		/*
+		 //Get all the siblings
+		 var $siblings = $(this).parent().children();
+		 alert($siblings);
+		 //Slide the question away
+		 $siblings.slideUp();
+		 $siblings.parent().slideUp();
+		 */
+		$(this).parent().slideUp();
+		var classes = $(this).attr('class');
+		var classes_arr = classes.split(" ");
 
-        <h3>SupSub Schaap</h3>
-        <p>
-            Woop Woop
-        </p>
-        
-        <h1>Blaat</h1>
-        <img src="#" width="150" height="300" class="left"/>
-        <p>
-            Whut Whut dkjfhagkjdhfgd
-            sfg
-            dfg
-            sdf
-            gs
-            dfg
-            sd
-            fg
-            sdfg
-            s
-            dfgsdfgsdfg
-            sdfgsd
-            fgsdfg
-            sd
-            fgsd
-            fgs
-            dfg
-            adfg
-            adfgadshivghasjdgkhjdfhjgsdjkahfkjashdjfgsadgfhjasdfas
-            dsafsdfasdjfasdf
-            asdfghasdjfgashjdfgjhasdfjasjdhfgas a djahgfjhasdhjg ad
-        </p>
+		$.each(classes_arr, function(index, value) {
+			updatePersona(value);
+		});
+		//Prevent button from firing
+		return false;
+	});
+	//Init the progress bars
+	$("#peter_bar, #hans_bar, #lucy_bar").progressbar({
+		value : 0
 
-        <h2>Sub Blaat</h2>
-        <p>
-            Inhoud Inhoud
-        </p>
+		//Update the colors on value change
+	}).bind('progressbarchange', function(event, ui) {
+		var selector = "#" + this.id + " > div";
+		var value = this.getAttribute("aria-valuenow");
+		if(value < 10) {
+			$(selector).css({
+				'background' : 'Red'
+			});
+		} else if(value < 30) {
+			$(selector).css({
+				'background' : 'Orange'
+			});
+		} else if(value < 50) {
+			$(selector).css({
+				'background' : 'Yellow'
+			});
+		} else {
+			$(selector).css({
+				'background' : 'Green'
+			});
+		}
+	});
 
-        <h3>SupSub Schaap</h3>
-        <p>
-            Woop Woop
-        </p>
-        
-        <h1>Blaat</h1>
-        <img src="#" width="150" height="300" class="left"/>
-        <p>
-            Whut Whut dkjfhagkjdhfgd
-            sfg
-            dfg
-            sdf
-            gs
-            dfg
-            sd
-            fg
-            sdfg
-            s
-            dfgsdfgsdfg
-            sdfgsd
-            fgsdfg
-            sd
-            fgsd
-            fgs
-            dfg
-            adfg
-            adfgadshivghasjdgkhjdfhjgsdjkahfkjashdjfgsadgfhjasdfas
-            dsafsdfasdjfasdf
-            asdfghasdjfgashjdfgjhasdfjasjdhfgas a djahgfjhasdhjg ad
-        </p>
-
-        <h2>Sub Blaat</h2>
-        <p>
-            Inhoud Inhoud
-        </p>
-
-        <h3>SupSub Schaap</h3>
-        <p>
-            Woop Woop
-        </p>
-    
+</script>
+</html>
