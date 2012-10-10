@@ -167,13 +167,17 @@ a {
 }
 
 li, ul {
-	display: inline;
 	margin: 0px;
 	padding: 2px;
 }
 
+ul > li {
+	display: inline;
+}
+
 ul {
 	margin: 50px;
+	display: inline;
 }
 
 #carousel {
