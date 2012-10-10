@@ -1,172 +1,326 @@
-<script language="JavaScript1.1">
-	punten = new Object();
-	punten.hans = 0;
-	punten.lucy = 0;
-	punten.peter = 0;
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+	</head>
+	<body>
+		<div style="float: left; width: 300px; padding: 10px;">
+			<div id="hans_bar">
+				Hans
+			</div>
+			<div id="peter_bar">
+				Peter
+			</div>
+			<div id="lucy_bar">
+				Lucy
+			</div>
+		</div>
+		<p>
+			Ik vind het leuk om nieuwe programmaatjes te schrijven.
+			<br />
+			<button class="peter">
+				Uiteraard!
+			</button>
+			<button>
+				Nope
+			</button>
+		</p>
+		<p>
+			Het analyseren van bedrijfsprocessen om te zien welk product bij een bedrijf
+			past, vind ik interessant.
+			<br />
+			<button class="peter">
+				Jup
+			</button>
+			<button>
+				Neh
+			</button>
+		</p>
+		<p>
+			Het lijkt me leuk om in een team te werken aan een grote en complexe
+			applicatie.
+			<br />
+			<button class="lucy">
+				Ja
+			</button>
+			<button>
+				Nee
+			</button>
+		</p>
+		<p>
+			Ik vind het leuk om websites te maken die bestaan uit PHP, HTML en
+			CSS
+			<br />
+			<button class="peter">
+				Jazeker
+			</button>
+			<button>
+				Echt nie
+			</button>
+		</p>
+		<p>
+			Ik wil tijdens mijn werk gespecialiseerd werk uitvoeren en kennis
+			hebben van veel programmeertalen.
+			<br />
+			<button class="peter lucy">
+				Uiteraard!
+			</button>
+			<button>
+				Nope
+			</button>
+		</p>
+		<p>
+			Het lijkt me leuk de schakel tussen de IT en de zakenwereld te zijn.
+			<br />
+			<button class="peter">
+				Zeker
+			</button>
+			<button>
+				Lame
+			</button>
+		</p>
+		<p>
+			Ik wil mijn sociale vaardigheden kunnen combineren met programmeer-werk.
+			<br />
+			<button class="lucy">
+				Zeker
+			</button>
+			<button>
+				Lame
+			</button>
+		</p>
+		<p>
+			Ik zie mijn toekomstige werkplek alsvolgt:
+			<br />
+			<button class="peter">
+				A
+			</button>
+			<button class="lucy">
+				B
+			</button>
+			<button class="hans">
+				C
+			</button>
+			<ol type="A">
+				<li>
+					Een klein bedrijfje van ongeveer 8 personen
+				</li>
+				<li>
+					Een team van ongeveer 25 man
+				</li>
+				<li>
+					Een groot bedrijf van meer dan 100 man
+				</li>
+			</ol>
+		</p>
+		<p>
+			Van de volgende vakken lijkt me het leukst:
+			<br />
+			
+			<button class="lucy">
+				A
+			</button>
+			<button class="hans">
+				B
+			</button>
+			<button class="peter">
+				C
+			</button>
+			<ol type="A">
+				<li>
+					Algoritmiek en datastructuren
+				</li>
+				<li>
+					Recht en maatschappij
+				</li>
+				<li>
+					Netwerken en internet
+				</li>
+			</ol>
+		</p>
+		<p>
+			Ik heb liever een brede kennis van de ICT dan dat ik me specialiseer op iets specifieks.
+			<br />
+			<button class="peter">
+				Jups
+			</button>
+			<button class="lucy">
+				Neh
+			</button>
+			<button class="hans">
+				Geen mening
+			</button>
+		</p>
+		<p>
+			Vakken waarbij sociale vaardigheden opgedaan worden trekken mij absoluut niet
+			<br />
+			<button >
+				Eens
+			</button>
+			<button class="hans lucy">
+				Oneens
+			</button>
+		</p>
+		<p>
+			Ik wil graag later veel programmeer- en ontwerp-werk doen
+			<br />
+			<button class="peter">
+				Ja
+			</button>
+			<button>
+				Nee
+			</button>
+		</p>
+		<p>
+			Nederlands is een leuk vak!
+			<br />
+			<button>
+				Nah!
+			</button>
+			<button>
+				Bah!
+			</button>
+			<button>
+				Gatsie
+			</button>
+			<button>
+				Ieuwww!!
+			</button>
+		</p>
+		<p>
+			De hele ICT wereld trekt mij niet.
+			<br />
+			<button class="faal">
+				Ja het is lame man...
+			</button>
+			<button>
+				Nee, het is AWESOME
+			</button>
+		</p>
+		<p>
+			Het lijkt me fijn om veel verantwoordelijkheid te hebben over de technische kant van een project
+			<br />
+			<button class="lucy peter">
+				Ja
+			</button>
+			<button>
+				Nee
+			</button>
+		</p>
+		<p>
+			Het lijkt me fijn om veel verantwoordelijkheid te hebben over de technische kant van een project
+			<br />
+			<button class="peter lucy">
+				Ja
+			</button>
+			<button>
+				Nee
+			</button>
+		</p>
+		<p>
+			Ik vind documentatie een noodzakelijk kwaad, ik schrijf liever broncodes.
+			<br />
+			<button class="peter">
+				Ja
+			</button>
+			<button>
+				Nee
+			</button>
+		</p>
+		<p>
+			Ik vind het geweldig om in het middelpunt van de belangstelling te staan
+			<br />
+			<button class="hans">
+				That's me!
+			</button>
+			<button>
+				NOOOOOOOS!
+			</button>
+		</p>
+		<p>
+			Ik beschik over een vlotte babbel, waarmee ik het vast goed zou doen als huis-aan-huis-verkoper.
+			<br />
+			<button class="hans">
+				Ja
+			</button>
+			<button>
+				W-w-wat, w-w-wat w-attus?
+			</button>
+		</p>
+		<p>
+			Ik hou netjes m'n documentatie bij voor m'n collega's, en dat doe ik met plezier.
+			<br />
+			<button class="lucy">
+				Ja
+			</button>
+			<button>
+				Nee
+			</button>
+		</p>
+		<script>
+			var peter = 0;
+			var hans = 0;
+			var lucy = 0;
 
-	function puntLucy() {
-		punten.lucy++;
-		return false;
-	}
+			function updatePersona(realname) {
 
-	function puntHans() {
-		punten.hans++;
-		return false;
-	}
+				//Get the variable by the name realname
+				window[realname]++;
+				var element_id = "#" + realname + "_bar";
 
-	function puntPeter() {
-		punten.peter++;
-		return false;
-	}
-
-	function faal() {
-		punten.lucy -= 40;
-		punten.peter -= 40;
-		punten.hans -= 40;
-	   return false;
-	}
-
-	function sorteer() {
-		var namen = new Array("lucy", "peter", "hans");
-		var hoogstePunten = 0;
-		var jijBent = null;
-		// Populate the array
-		for (var i = 0; i < namen.length; i++) {
-			curPunten = punten.namen[i]
-			curName = namen[i];
-
-			if (curPunten > hoogstePunten) {
-				jijBent = namen[i];
+				//Update Progressbar, nine points per person
+				$(element_id).progressbar("value", window[realname] * 100 / 9);
 			}
-		}
-		container = document.getElementById("ikBen");
-        container.innerHTML(jijBent);
-        
-        return false;
-	}
-</script>
-<p>
-    Ik vind het leuk om nieuwe programmaatjes te schrijven
-</p>
-<a href="#" onClick="puntPeter()">Uiteraard!</a><a href="#">Nope</a>
 
-<p>
-    Het analyseren van bedrijfsprocessen om te zien welk product bij een bedrijf
-    past, vind ik interessant.
-</p>
-<a href="#" onClick="puntHans()">Jup</a><a href="#">Neh</a>
 
-<p>
-    Het lijkt me leuk om in een team te werken aan een grote en complexe
-    applicatie.
-</p>
-<a href="#" onClick="puntLucy()">Ja</a><a href="#">Nee</a>
+			$("button").click(function() {
+				
+				/*
+					//Get all the siblings
+					var $siblings = $(this).parent().children();
+					alert($siblings);
+					//Slide the question away
+					$siblings.slideUp();
+					$siblings.parent().slideUp();				
+				*/
+				$(this).parent().slideUp();
+				var classes = $(this).attr('class');
+				var classes_arr = classes.split(" ");
 
-<p>
-    Ik vind het leuk om websites te maken die bestaan uit PHP, HTML en
-    CSS
-</p>
-<a href="#" onClick="puntPeter()">Jazeker</a><a href="#">Echt nie</a>
-
-<p>
-    Ik wil tijdens mijn werk gespecialiseerd werk uitvoeren en kennis
-    hebben van veel programmeertalen.
-</p>
-<a href="#" onClick="puntPeter(); puntLucy()">Uiteraard!</a><a href="#">Nope</a>
-
-<p>
-    Het lijkt me leuk de schakel tussen de IT en de zakenwereld te zijn.
-</p>
-<a href="#" onClick="puntPeter()">Zeker</a><a href="#">Lame</a>
-
-<p>
-    Ik wil mijn sociale vaardigheden kunnen combineren met programmeer-werk.
-</p>
-<a href="#" onClick="puntLucy()">Zeker</a><a href="#">Lame</a>
-
-<p>
-    Ik zie mijn toekomstige werkplek alsvolgt:
-    <ol type="A">
-        <li>
-            Een klein bedrijfje van ongeveer 8 personen
-        </li>
-        <li>
-            Een team van ongeveer 25 man
-        </li>
-        <li>
-            Een groot bedrijf van meer dan 100 man
-        </li>
-    </ol>
-</p>
-<a href="#" onClick="puntPeter()">A</a><a href="#" onClick="puntLucy()">B</a><a href="#" onClick="puntHans()">C</a>/a>
-
-<p>
-    Van de volgende vakken lijkt me het leukst:
-    <ol type="A">
-        <li>
-            Algoritmiek en datastructuren
-        </li>
-        <li>
-            Recht en maatschappij
-        </li>
-        <li>
-            Netwerken en internet
-        </li>
-    </ol>
-</p>
-<a href="#" onClick="puntLucy()">A</a><a href="#" onClick="puntHans();">B</a><a href="#" onClick="puntPeter()">C</a>
-
-<p>
-    Ik heb liever een brede kennis van de ICT dan dat ik me specialiseer op iets specifieks.
-</p>
-<a href="#" onClick="puntPeter()">Jups</a><a href="#" onClick="puntLucy();">Neh</a><a href="#" onClick="puntHans()">Geen mening</a>/a>
-
-<p>
-    Vakken waarbij sociale vaardigheden opgedaan worden trekken mij absoluut niet
-</p>
-<a href="#">Eens</a><a href="#" onClick="puntHans(); puntLucy();">Oneens</a>
-
-<p>
-    Ik wil graag later veel programmeer- en ontwerp-werk doen
-</p>
-<a href="#" onClick="puntPeter()">Ja</a><a href="#">Nee</a>
-
-<p>
-    Nederlands is een leuk vak!
-</p>
-<a href="#">Nah!</a>
-<a href="#">Bah!</a>
-<a href="#">Gatsie</a>
-<a href="#">Ieuwww!!</a>
-
-<p>
-    De hele ICT wereld trekt mij niet.
-</p>
-<a href="#" onClick="faal()">Ja het is lame man...</a><a href="#">Nee, het is AWESOME</a>
-
-<p>
-    Het lijkt me fijn om veel verantwoordelijkheid te hebben over de technische kant van een project
-</p>
-<a href="#" onClick="puntPeter(); puntLucy()">Ja</a><a href="#">Nee</a>
-
-<p>
-    Ik vind documentatie een noodzakelijk kwaad, ik schrijf liever broncodes.
-</p>
-<a href="#" onClick="puntPeter();">Ja</a><a href="#">Nee</a>
-
-<p>
-    Ik vind het geweldig om in het middelpunt van de belangstelling te staan
-</p>
-<a href="#" onClick="puntHans()">That's me!</a><a href="#">NOOOOOOOS!</a>
-
-<p>
-    Ik beschik over een vlotte babbel, waarmee ik het vast goed zou doen als huis-aan-huis-verkoper.
-</p>
-<a href="#" onClick="puntHans()">Ja</a><a href="#">W-w-wat, w-w-wat w-attus?</a>
-
-<p>
-    Ik hou netjes m'n documentatie bij voor m'n collega's, en dat doe ik met plezier.
-</p>
-<a href="#" onClick="puntLucy()">Ja</a><a href="#">Nee</a>
-
-<p>Wie ben ik:</p> <a href="#" onClick="sorteer()" id="ikBen">Klik Mij!</a>
+				$.each(classes_arr, function(index, value) {
+					updatePersona(value);
+				});
+				//Prevent button from firing
+				return false;
+			});
+			//Init the progress bars
+			$("#peter_bar, #hans_bar, #lucy_bar").progressbar({
+				value : 0
+			
+			//Update the colors on value change
+			}).bind('progressbarchange', function(event, ui) {
+				var selector = "#" + this.id + " > div";
+				var value = this.getAttribute("aria-valuenow");
+				if(value < 10) {
+					$(selector).css({
+						'background' : 'Red'
+					});
+				} else if(value < 30) {
+					$(selector).css({
+						'background' : 'Orange'
+					});
+				} else if(value < 50) {
+					$(selector).css({
+						'background' : 'Yellow'
+					});
+				} else {
+					$(selector).css({
+						'background' : 'Green'
+					});
+				}
+			});
+		</script>
+	</body>
+</html>
