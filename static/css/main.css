@@ -92,22 +92,131 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+* {
+	margin: 0;
+}
 
+html, body {
+	height: 100%;
+}
 
+html {
+	/* het logo */
+	background-image: url(static/img/pattern.png);
+	background-repeat: repeat;
+}
 
+body {
+	width: 1000px;
+	margin: 0 auto; /*Centreren */
+}
 
+aside {
+	padding-top: 14px;
+	float: left;
+	display: block;
+	width: 20%;
+}
 
+#main {
+	padding: 25px;
+	float: left;
+	width: 70%;
+	background-color: #ffffff;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto 0; /* the bottom margin is the negative value of the footer's height */
+	border-right: 20px dotted #f2f2f2;
+}
 
+header {
+	/* het logo */
+	background-image: url(http://creativecommons.org/images/deed/cc-logo.jpg);
+	background-repeat: no-repeat;
+	padding-left: 150px;
+	height: 100px;
+	padding-top:50px;
+}
 
+a:link {
+	color: #294052;
+}
+a:visited {
+	color: #447294;
+}
+a:hover {
+	color: #8FBCDB;
+}
+a {
+	font-size: 2em;
+	text-transform: uppercase;
+	font-family: 'Carrois Gothic', sans-serif;
+	text-decoration: none;
+}
 
+li, ul {
+	display: inline;
+	margin: 0px;
+	padding: 2px;
+}
 
+ul {
+	margin: 50px;
+}
 
+#carousel {
+	border: 1px solid black;
+	width: 650px;
+	height: 200px;
+}
 
+.stereotype {
+	border: 1px solid black;
+	width: 100%;
+	height: 150px;
+	margin-top: 10px;
+}
 
+img {
+	height: 150px;
+	margin: 5px;
+}
 
+h1 {
+	color: #294052;
+	font-family: 'Carrois Gothic', sans-serif;
+	border-bottom:  2px dotted #294052;
+}
 
+h2 {
+	color: #447294;
+	font-family: 'Carrois Gothic', sans-serif;
+	border-bottom:  2px dotted #447294;
+}
 
+h3 {
+	color: #8FBCDB;
+	font-family: 'Carrois Gothic', sans-serif;
+	border-bottom:  2px dotted #8FBCDB;
+}
 
+aside {
+	
+	padding-left: 10px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
 
 /* ==========================================================================
    Helper classes

@@ -1,17 +1,9 @@
-    </div>
+</div>
     <aside>
-        <div class="stereotype">
-            Stereotype 1
-        </div>
-        <div class="stereotype">
-            Stereotype 2
-        </div>
-        <div class="stereotype">
-            Stereotype 3
-        </div>
-        <div class="stereotype">
-            Stereotype 4
-        </div>
+        <a href="#"><img src="static/img/peter.jpg" alt="Peter" title="Peter" width="200" height="150" /></a>
+        <a href="#"><img src="static/img/lucy.jpg" alt="Lucy" title="Lucy" width="200" height="150"/></a>
+        <a href="#"><img src="static/img/hans.jpg" alt="Hans" title="Hans" width="200" height="150"/></a>
+        <a href="#"><img src="static/img/vragenlijst.jpg" alt="Maak de vragen lijst!" title="Maak de vragen lijst!" width="200" height="150"/></a>
     </aside>
 </body>
 </html>
