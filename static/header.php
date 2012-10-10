@@ -24,7 +24,7 @@
                     <a href="#">Opdracht</a>
                 </li>
                 <li>
-                    <a href="#">Stereotype</a>
+                    <a href="#">Persona</a>
                 </li>
             </ul>
         </nav>
