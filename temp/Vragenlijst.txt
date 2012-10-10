@@ -1,0 +1,87 @@
+1) Ik vind het leuk om d.m.v. Java nieuwe programmatjes te ontwikkelen
+
+Ja (+1 Peter)
+Nee 
+
+2) Het analyseren van bedrijfsprocessen om te zien welk product bij een bedrijf 
+past, vind ik interesant.
+
+Ja (+1 Hans)
+Nee 
+
+3) Het lijkt me leuk om in een team te werken aan een grote en complexe 
+applicatie. 
+
+Ja (+1 Lucy)
+Nee
+
+4) Ik vind het leuk om websites te maken bestaande uit PHP, HTML en
+CSS
+
+Ja (+1 Peter)
+Nee
+
+5) Ik wil tijdens mijn werk gespecialiseerd werk uitvoeren en kennis
+hebben van veel programmeer talen
+
+Ja (+1 Peter & Lucy)
+Nee
+
+6) Het lijkt me leuk de schakel tussen IT en de business wereld te zijn
+
+Ja (+1 Hans)
+Nee
+
+7) Ik wil mijn sociale vaardigheden kunnen combineren met programmeer
+werk. 
+
+Ja (+1 Lucy)
+Nee 
+
+8) Ik zie mijn toekomstige werkplek alsvolgt:
+
+A. Een klein bedrijfje van 8 personen (+1 Peter)
+B. Een team van ongeveer 25 man (+1 Lucy)
+C. Een groot bedrijf van meer dan 100 man (+1 Hans)
+
+9) Van de volgende vakken lijkt me het leukst:
+
+A. Algoritmiek en datastructuren (+1 Lucy)
+B. Recht en maatschappij (+1 Hans)
+C. Netwerken en internet (+1 Peter)
+
+10) Ik heb liever brede kennis van de ICT dan dat ik de "specialist" ben
+
+A. Ja (+1 Peter)
+B. Nee (+1 Lucy)
+C. Geen van beide (Hans +1)
+
+11) Ik wil graag een traject naar realisatie begeleiden
+
+A. Ja (+1 Hans)
+B. Nee
+
+12) Vakken waarbij sociale vaardigheden opgedaan worden trekken mij absoluut
+niet
+
+A. Eens
+B. Oneens (+1 Hans & Lucy)
+
+13) Ik wil graag later veel programmeer en ontwerp werk doen
+
+A. Ja (+1 Peter)
+B. Nee
+
+14) Nederlands is een leuk vak
+
+A. Nee
+
+15) Het lijkt me leuk later GUI's te maken voor programmatjes
+
+A. Ja (+1 Peter)
+B. Nee 
+
+16) De hele ICT wereld trekt mij niet
+
+A. Eens (- 40 Peter, Lucy & Hans)
+B. Niet eens 

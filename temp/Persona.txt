@@ -1,0 +1,23 @@
+Peter
+
+Peter is een programmeur. Hij is zeer breed opgeleid als ICT-er. Hij heeft
+verstand van PHP, Java, C#, JavaScript, Android, iOS-Technologie enzovoorts.
+Hij is voornamelijk bezig om software applicaties te ontwerpen voor
+de eindgebruiker. Vaak, zijn dit niet al te grote of te complexe
+programma's
+
+Lucy
+
+Lucy is een specialist. Lucy is weer iets breder opgeleid dan Peter,
+maar heeft zich gespecialiseerd in een bepaald onderdeel van de ICT.
+Zo kan ze erg ervaren zijn in C++, Java, C#, PHP of een andere taal.
+Daarnaast, heeft ze ook nog kennis van design patterns en algoritmes.
+Lucy werkt in een team aan een groter project.
+
+Hans
+
+Hans heeft goede sociale een communicatieve vaardigheden. Hij weet precies
+hoe hij een klant moet aanspreken en hoe hij het best met hem communiceert.
+Hans krijgt hierdoor dus altijd de goeie informatie die hij nodig heeft om
+een goed advies uit te brengen. Hij is goed in het doorgronden van bedrijfs
+processen en is dus de man die staat tussen de IT en de zakenwereld
