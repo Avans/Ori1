@@ -1,10 +1,10 @@
-1) Ik vind het leuk om d.m.v. Java nieuwe programmatjes te ontwikkelen
+1) Ik vind het leuk om nieuwe programmaatjes te schrijven
 
 Ja (+1 Peter)
 Nee 
 
 2) Het analyseren van bedrijfsprocessen om te zien welk product bij een bedrijf 
-past, vind ik interesant.
+past, vind ik interessant.
 
 Ja (+1 Hans)
 Nee 
@@ -15,32 +15,31 @@ applicatie.
 Ja (+1 Lucy)
 Nee
 
-4) Ik vind het leuk om websites te maken bestaande uit PHP, HTML en
+4) Ik vind het leuk om websites te maken die bestaan uit PHP, HTML en
 CSS
 
 Ja (+1 Peter)
 Nee
 
 5) Ik wil tijdens mijn werk gespecialiseerd werk uitvoeren en kennis
-hebben van veel programmeer talen
+hebben van veel programmeertalen.
 
 Ja (+1 Peter & Lucy)
 Nee
 
-6) Het lijkt me leuk de schakel tussen IT en de business wereld te zijn
+6) Het lijkt me leuk de schakel tussen de IT en de zakenwereld te zijn.
 
 Ja (+1 Hans)
 Nee
 
-7) Ik wil mijn sociale vaardigheden kunnen combineren met programmeer
-werk. 
+7) Ik wil mijn sociale vaardigheden kunnen combineren met programmeer-werk. 
 
 Ja (+1 Lucy)
 Nee 
 
 8) Ik zie mijn toekomstige werkplek alsvolgt:
 
-A. Een klein bedrijfje van 8 personen (+1 Peter)
+A. Een klein bedrijfje van ongeveer 8 personen (+1 Peter)
 B. Een team van ongeveer 25 man (+1 Lucy)
 C. Een groot bedrijf van meer dan 100 man (+1 Hans)
 
@@ -50,13 +49,13 @@ A. Algoritmiek en datastructuren (+1 Lucy)
 B. Recht en maatschappij (+1 Hans)
 C. Netwerken en internet (+1 Peter)
 
-10) Ik heb liever brede kennis van de ICT dan dat ik de "specialist" ben
+10) Ik heb liever een brede kennis van de ICT dan dat ik me specialiseer op iets specifieks.
 
 A. Ja (+1 Peter)
 B. Nee (+1 Lucy)
 C. Geen van beide (Hans +1)
 
-11) Ik wil graag een traject naar realisatie begeleiden
+11) Ik wil graag een traject begeleiden, van concept tot realisatie.
 
 A. Ja (+1 Hans)
 B. Nee
@@ -67,21 +66,50 @@ niet
 A. Eens
 B. Oneens (+1 Hans & Lucy)
 
-13) Ik wil graag later veel programmeer en ontwerp werk doen
+13) Ik wil graag later veel programmeer- en ontwerp-werk doen
 
 A. Ja (+1 Peter)
 B. Nee
 
-14) Nederlands is een leuk vak
+14) Nederlands is een leuk vak!
 
-A. Nee
+A. Nah!
+B. Bah!
+C. Gatsie!
+D. Ieuwww!!
 
 15) Het lijkt me leuk later GUI's te maken voor programmatjes
 
 A. Ja (+1 Peter)
 B. Nee 
 
-16) De hele ICT wereld trekt mij niet
+16) De hele ICT wereld trekt mij niet.
 
 A. Eens (- 40 Peter, Lucy & Hans)
-B. Niet eens 
+B. Niet eens
+
+17) Het lijkt me fijn om veel verantwoordelijkheid te hebben over de technische kant van een project
+
+A. Ja (+1 Peter & Lucy)
+B. Nee
+
+18) Ik vind documentatie een noodzakelijk kwaad, ik schrijf liever broncodes.
+
+A. Ja (+1 Peter)
+B. Nee
+
+19) Ik vind het geweldig om in het middelpunt van de belangstelling te staan
+
+A. Ja (+1 Hans)
+B. Nee
+
+20) Ik hou van vragen beantwoorden.
+
+A. Ja (+1 Hans)
+B. Nee
+
+21) Ik beschik over een vlotte babbel, waarmee ik het vast goed zou doen als huis-aan-huis-verkoper.
+
+A. Ja (+1 Hans)
+B. Nee
+
