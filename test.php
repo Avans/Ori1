@@ -57,27 +57,24 @@ if ($id > 0)
 		$(element_id).progressbar("value", window[realname] * 100 / amountPossible);
 	}
 
-	function showPersona() {
+	function showpersona() {
 		var array = new Array;
 		var nr = Math.max(peter, hans, lucy);
-		if (nr == lucy) {
-			array.push("lucy");
+		if(nr == lucy) {
+			$('#result').append("<li>Lucy</li>");
+			$('#lucy_kenmerken').toggleClass("hidden");
 		}
 
-		if (nr == hans) {
-			array.push("hans");
+		if(nr == hans) {
+			$('#result').append("<li>Hans</li>");
+			$('#hans_kenmerken').toggleClass("hidden");
 		}
 
-		if (nr == peter) {
-			array.push("peter");
+		if(nr == peter) {
+			$('#result').append("<li>Peter</li>");
+			$('#peter_kenmerken').toggleClass("hidden");
 		}
-
-		$('#main').empty();
-		$('#main').append('<h1>Jij bent een ');
-		for (var i = 0; i < array.length; i++) {
-			$('#main').append(array[i] + ' ');
-		}
-		$('#main').append('</h1>');
+		$('#done').toggleClass("hidden");
 	}
 
 
