@@ -102,7 +102,7 @@ if ($id > 0)
 	});
 	
 	//Verberg het resultaat
-	$('done').hide();
+	$("#done").hide();
 	
 	//Init the progress bars
 	$("#peter_bar, #hans_bar, #lucy_bar").progressbar({
