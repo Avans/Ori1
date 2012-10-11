@@ -33,10 +33,10 @@
         ?>
     </div>
     <aside>
-        <a href="index.php?id=4"><img src="static/img/peter2.jpg" alt="Peter" title="Peter" width="200" height="150" /></a>
-        <a href="index.php?id=5"><img src="static/img/lucy2.jpg" alt="Lucy" title="Lucy" width="200" height="150"/></a>
-        <a href="index.php?id=6"><img src="static/img/hans2.jpg" alt="Hans" title="Hans" width="200" height="150"/></a>
-        <a href="index.php?id=7"><img src="static/img/vragenlijst.jpg" alt="Maak de vragen lijst!" title="Maak de vragen lijst!" width="200" height="150"/></a>
+        <?php
+        echo $curPage->getStatic('sidebar');
+        ?>
+       
     </aside>
 </body>
 </html>
