@@ -172,6 +172,7 @@ header {
 	/* het logo */
 	background-image: url(../img/header.png);
 	background-repeat: no-repeat;
+
     float: left;
     margin-bottom: 20px;
 	//padding-left: 120px;
