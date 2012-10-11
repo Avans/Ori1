@@ -106,7 +106,11 @@ if ($id > 0)
 	$("#peter_bar, #hans_bar, #lucy_bar").progressbar({
 		value : 0
 	});
-
+	
+	//Change bar color
+	$("#peter_bar > div").css({ 'background': 'red' });
+	$("#hans_bar > div").css({ 'background': 'green' });
+	$("#lucy_bar > div").css({ 'background': 'blue' });
 </script>
 </html>
 <?php
