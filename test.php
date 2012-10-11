@@ -58,8 +58,6 @@ if ($id > 0)
 	}
 
 	function showpersona() {
-		alert('showPersona');
-		var array = new Array;
 		var nr = Math.max(peter, hans, lucy);
 		if(nr == lucy) {
 			$('#result').append("<li>Lucy</li>");
@@ -78,19 +76,23 @@ if ($id > 0)
 		$('#done').toggleClass("hidden");
 	}
 
-
 	$("button").click(function() {
 
 		answerdQuestions++;
-
 		$(this).parent('p').slideUp();
+		
 		var classes = $(this).attr('class');
-		var classes_arr = classes.split(" ");
-
+		
+		if(classes){ //if it has a value
+			var classes_arr = classes.split(" ");
+		} else {
+			var classes_arr = new Array();
+		}
+		
 		$.each(classes_arr, function(index, value) {
 			updatePersona(value);
 		});
-
+	
 		if (answerdQuestions == numQuestions) {
 			showPersona();
 		}
