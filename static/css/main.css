@@ -102,7 +102,7 @@ html, body {
 
 html {
 	/* het logo */
-	background-image: url(static/img/pattern.png);
+	background-image: url(../img/pattern.png);
 	background-repeat: repeat;
 }
 
@@ -120,23 +120,34 @@ aside {
 
 #main {
 	padding: 25px;
+    font-size: 11px;
 	float: left;
 	width: 70%;
 	background-color: #ffffff;
-	min-height: 100%;
+	/*min-height: 100%;
 	height: auto !important;
-	height: 100%;
-	margin: 0 auto 0; /* the bottom margin is the negative value of the footer's height */
-	border-right: 20px dotted #f2f2f2;
+	height: 100%;*/
+	margin: 19px auto 0; /* the bottom margin is the negative value of the footer's height */
+	border-right: 20px dashed #f2f2f2;
+}
+
+#main h1{
+    font-size: 14px;
+    border-bottom: 0px;
 }
 
 header {
 	/* het logo */
-	background-image: url(http://creativecommons.org/images/deed/cc-logo.jpg);
+	background-image: url(../img/logo.png);
 	background-repeat: no-repeat;
-	padding-left: 150px;
-	height: 100px;
-	padding-top:50px;
+	padding-left: 120px;
+	height: 110px;
+	padding-top: 40px;
+}
+
+nav ul li{
+    margin: 0px 20px 0px 20px;
+
 }
 
 a:link {
@@ -156,13 +167,17 @@ a {
 }
 
 li, ul {
-	display: inline;
 	margin: 0px;
 	padding: 2px;
 }
 
+ul > li {
+	display: inline;
+}
+
 ul {
 	margin: 50px;
+	display: inline;
 }
 
 #carousel {

@@ -8,9 +8,9 @@ class SQLConnect {
 	var $mysqli;
 	
 	function __construct(){
-		$this->usr = "";
-		$this->pwd = "";
-		$this->db = "";
+		$this->usr = "root";
+		$this->pwd = "umlaut";
+		$this->db = "ori";
 		$this->host = "localhost";
 		$this->mysqli = new mysqli($this->host, $this->usr, $this->pwd, $this->db);
 	}
