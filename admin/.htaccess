@@ -1,0 +1,4 @@
+AuthUserFile .htpasswd
+AuthType Basic
+AuthName "Naam: Admin \n Wachtwoord: Groepsnaam"
+Require valid-user
