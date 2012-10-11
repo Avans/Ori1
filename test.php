@@ -73,7 +73,7 @@ if ($id > 0)
 			$('#result').append("<li>Peter</li>");
 			$('#peter_kenmerken').toggleClass("hidden");
 		}
-		$('#done').slideDown("slow");
+		$('#done').toggleClass("hidden");
 	}
 
 	$("button").click(function() {
@@ -108,8 +108,9 @@ if ($id > 0)
 	
 	//Change bar color
 	$("#peter_bar > div").css({ 'background': 'red' });
-	$("#hans_bar > div").css({ 'background': 'green' });
-	$("#lucy_bar > div").css({ 'background': 'blue' });
+	$("#lucy_bar > div").css({ 'background': 'green' });
+	$("#hans_bar > div").css({ 'background': 'blue' });
+	
 </script>
 </html>
 <?php
