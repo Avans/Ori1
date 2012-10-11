@@ -1,6 +1,6 @@
 <?php
 	ob_start();
-	require_once 'classlib.php';
+	require_once '../classlib.php';
 	$handle = new PageHandle();
 	$curPage = new Page();
 	$cms = new CMS();
@@ -22,7 +22,7 @@
 	<head>
 		<title>CMS - edit article</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<link rel="stylesheet" type="text/css" href="static/css/style_cms.css">
+		<link rel="stylesheet" type="text/css" href="../static/css/style_cms.css">
 		
 	</head>
 	<body>
