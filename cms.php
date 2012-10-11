@@ -15,12 +15,12 @@
 		
 	</head>
 	<body>
-		<?= $curPage->getStatic('cms_header')?>
+		<?php echo $curPage->getStatic('cms_header')?>
 		<div class="cms_container">
 			<div class="cms_entry" style="height: 13px;">
 				<a href="index.php">Index</a> | <a href="edit.php?mode=1">Add article</a><br><br>
 			</div>
-			<?= $cms->getArticles()?>
+			<?php echo $cms->getArticles()?>
 		
 		</div>
 	

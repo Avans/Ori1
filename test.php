@@ -30,11 +30,11 @@ if ($id > 0)
 
     <div id="main">
 
-        <?= $curPage->getContent('html'); ?>
+        <?php echo $curPage->getContent('html'); ?>
     </div>
 
     <aside>
-        <?= $curPage->getStatic('sidebar'); ?>
+        <?php echo $curPage->getStatic('sidebar'); ?>
     </aside>
 
 </body>
