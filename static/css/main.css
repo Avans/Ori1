@@ -172,7 +172,6 @@ header {
 	/* het logo */
 	background-image: url(../img/header.png);
 	background-repeat: no-repeat;
-
     float: left;
     margin-bottom: 20px;
 	//padding-left: 120px;
@@ -236,6 +235,62 @@ aside {
 	
 	padding-left: 10px;
 }
+
+.hoverPeter{
+    margin: 5px;
+    display: block;
+    width: 200px;
+    height: 150px;
+    background-image: url(../img/peter.jpg);
+}
+
+.hoverPeter:hover {
+    background-image: url(../img/peter-o.jpg);
+}
+
+.hoverPeter a {
+    display: block;
+    width: 100%;
+    height:100%;
+}
+
+.hoverLucy{
+    margin: 5px;
+    display: block;
+    width: 200px;
+    height: 150px;
+    background-image: url(../img/lucy.jpg);
+}
+
+.hoverLucy:hover {
+    background-image: url(../img/lucy-o.jpg);
+}
+
+.hoverLucy a {
+    display: block;
+    width: 100%;
+    height:100%;
+}
+
+.hoverHans{
+    margin: 5px;
+    display: block;
+    width: 200px;
+    height: 150px;
+    background-image: url(../img/hans.jpg);
+}
+
+.hoverHans:hover {
+    background-image: url(../img/hans-o.jpg);
+}
+
+.hoverHans a {
+    display: block;
+    width: 100%;
+    height:100%;
+}
+
+
 
 .left {
 	float: left;
