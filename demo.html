@@ -44,10 +44,10 @@
 		<p>
 			Ik vind het leuk om nieuwe programmaatjes te schrijven.
 			<br />
-			<button class="peter">
+			<button class="peter lucy">
 				Uiteraard!
 			</button>
-			<button>
+			<button class="hans">
 				Nope
 			</button>
 		</p>
@@ -55,10 +55,10 @@
 			Het analyseren van bedrijfsprocessen om te zien welk product bij een bedrijf
 			past, vind ik interessant.
 			<br />
-			<button class="peter">
+			<button class="hans">
 				Jup
 			</button>
-			<button>
+			<button class="peter">
 				Neh
 			</button>
 		</p>
@@ -69,7 +69,7 @@
 			<button class="lucy">
 				Ja
 			</button>
-			<button>
+			<button class="hans">
 				Nee
 			</button>
 		</p>
@@ -91,14 +91,14 @@
 			<button class="peter lucy">
 				Uiteraard!
 			</button>
-			<button>
+			<button class="hans">
 				Nope
 			</button>
 		</p>
 		<p>
 			Het lijkt me leuk de schakel tussen de IT en de zakenwereld te zijn.
 			<br />
-			<button class="peter">
+			<button class="hans">
 				Zeker
 			</button>
 			<button>
@@ -108,10 +108,10 @@
 		<p>
 			Ik wil mijn sociale vaardigheden kunnen combineren met programmeer-werk.
 			<br />
-			<button class="lucy">
+			<button class="peter">
 				Zeker
 			</button>
-			<button>
+			<button class="lucy">
 				Lame
 			</button>
 		</p>
@@ -189,7 +189,7 @@
 		<p>
 			Ik wil graag later veel programmeer- en ontwerp-werk doen
 			<br />
-			<button class="peter">
+			<button class="peter lucy">
 				Ja
 			</button>
 			<button>
@@ -215,10 +215,10 @@
 		<p>
 			De hele ICT wereld trekt mij niet.
 			<br />
-			<button class="faal">
+			<button>
 				Ja het is lame man...
 			</button>
-			<button>
+			<button class="hans hans peter lucy lucy">
 				Nee, het is AWESOME
 			</button>
 		</p>
@@ -226,16 +226,6 @@
 			Het lijkt me fijn om veel verantwoordelijkheid te hebben over de technische kant van een project
 			<br />
 			<button class="lucy peter">
-				Ja
-			</button>
-			<button>
-				Nee
-			</button>
-		</p>
-		<p>
-			Het lijkt me fijn om veel verantwoordelijkheid te hebben over de technische kant van een project
-			<br />
-			<button class="peter lucy">
 				Ja
 			</button>
 			<button>
@@ -258,7 +248,7 @@
 			<button class="hans">
 				That's me!
 			</button>
-			<button>
+			<button class="peter">
 				NOOOOOOOS!
 			</button>
 		</p>
@@ -302,7 +292,7 @@
 		var element_id = "#" + realname + "_bar";
 
 		//Update Progressbar, nine points per person
-		$(element_id).progressbar("value", window[realname] * 100 / 9);
+		$(element_id).progressbar("value", window[realname] * 100 / 12);
 	}
 
 
@@ -331,26 +321,6 @@
 		value : 0
 
 		//Update the colors on value change
-	}).bind('progressbarchange', function(event, ui) {
-		var selector = "#" + this.id + " > div";
-		var value = this.getAttribute("aria-valuenow");
-		if(value < 10) {
-			$(selector).css({
-				'background' : 'Red'
-			});
-		} else if(value < 30) {
-			$(selector).css({
-				'background' : 'Orange'
-			});
-		} else if(value < 50) {
-			$(selector).css({
-				'background' : 'Yellow'
-			});
-		} else {
-			$(selector).css({
-				'background' : 'Green'
-			});
-		}
 	});
 
 </script>
