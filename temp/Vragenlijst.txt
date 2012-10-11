@@ -15,13 +15,13 @@ applicatie.
 Ja (+1 Lucy)
 Nee
 
-4) Ik vind het leuk om websites te maken die bestaan uit veel verschillende dingen, zoals
-bijvoorbeeld PHP, HTML én CSS.
+4) Ik vind het leuk om websites te maken die bestaan uit PHP, HTML en
+CSS
 
 Ja (+1 Peter)
 Nee
 
-5) Ik wil tijdens mijn werk gespecialiseerd werk doen en kennis
+5) Ik wil tijdens mijn werk gespecialiseerd werk uitvoeren en kennis
 hebben van veel programmeertalen.
 
 Ja (+1 Peter & Lucy)
@@ -80,7 +80,7 @@ D. Ieuwww!!
 
 15) De hele ICT wereld trekt mij niet.
 
-A. Eens (-9 Peter, Lucy & Hans)
+A. Eens (- 40 Peter, Lucy & Hans)
 B. Niet eens
 
 16) Het lijkt me fijn om veel verantwoordelijkheid te hebben over de technische kant van een project
