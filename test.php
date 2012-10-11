@@ -60,20 +60,20 @@ if ($id > 0)
 	function showPersona() {
 		var nr = Math.max(peter, hans, lucy);
 		if(nr == lucy) {
-			$('#result').append("<li>Lucy</li>");
+			$('#result').append('<li><a href="index.php?id=5">Lucy</a></li>');
 			$('#lucy_kenmerken').toggleClass("hidden");
 		}
 
 		if(nr == hans) {
-			$('#result').append("<li>Hans</li>");
+			$('#result').append('<li><a href="index.php?id=6">Hans</a></li>');
 			$('#hans_kenmerken').toggleClass("hidden");
 		}
 
 		if(nr == peter) {
-			$('#result').append("<li>Peter</li>");
+			$('#result').append('<li><a href="index.php?id=4">Peter</a></li>');
 			$('#peter_kenmerken').toggleClass("hidden");
 		}
-		$('#done').toggleClass("hidden");
+		$('#done').slideDown("slow");
 	}
 
 	$("button").click(function() {
@@ -100,6 +100,9 @@ if ($id > 0)
 		//Prevent button from firing
 		return false;
 	});
+	
+	//Verberg het resultaat
+	$('done').hide();
 	
 	//Init the progress bars
 	$("#peter_bar, #hans_bar, #lucy_bar").progressbar({
