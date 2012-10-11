@@ -57,7 +57,7 @@ if ($id > 0)
 		$(element_id).progressbar("value", window[realname] * 100 / amountPossible);
 	}
 
-	function showpersona() {
+	function showPersona() {
 		var nr = Math.max(peter, hans, lucy);
 		if(nr == lucy) {
 			$('#result').append("<li>Lucy</li>");
