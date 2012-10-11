@@ -58,6 +58,7 @@ if ($id > 0)
 	}
 
 	function showpersona() {
+		alert('showPersona');
 		var array = new Array;
 		var nr = Math.max(peter, hans, lucy);
 		if(nr == lucy) {
