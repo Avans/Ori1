@@ -73,7 +73,7 @@ if ($id > 0)
 			$('#result').append("<li>Peter</li>");
 			$('#peter_kenmerken').toggleClass("hidden");
 		}
-		$('#done').toggleClass("hidden");
+		$('#done').slideDown("slow");
 	}
 
 	$("button").click(function() {
